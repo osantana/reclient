@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/reclient
+   */site-packages/reclient
+
+[run]
+branch = true
+source =
+    reclient
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
